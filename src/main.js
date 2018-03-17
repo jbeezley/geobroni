@@ -4,11 +4,14 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 import Vuetify from 'vuetify';
+import VueLayers from 'vuelayers';
 import 'vuetify/dist/vuetify.min.css';
+import 'vuelayers/lib/style.css';
 
 Vue.use(Vuetify);
+Vue.use(VueLayers);
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = true;
 
 /* eslint-disable no-new */
 new Vue({
